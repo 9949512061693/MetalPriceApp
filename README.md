@@ -1,52 +1,97 @@
-# Welcome to your Expo app 👋
+# 📱 Metal Prices App (React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile application that displays real-time prices of precious metals including Gold, Silver, Platinum, and Palladium. This project is built as part of a frontend assignment to simulate a real-world financial product experience.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+* 📊 Live metal price tracking (Gold, Silver, Platinum, Palladium)
+* 🔄 Independent data fetching for each metal
+* ⏳ Loading indicators for better user experience
+* ❌ Error handling for API failures
+* 📱 Clean and responsive UI with card-based layout
+* 🔗 Navigation between Home and Details screens
+* 📄 Detailed view with:
 
-2. Start the app
+  * Current price
+  * Previous open price
+  * Previous close price
+  * Current date & time
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* React Native (Expo)
+* Expo Router (Navigation)
+* JavaScript (ES6+)
+* REST API (gold-api.com)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📂 Project Structure
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+/app
+  index.jsx
+  details.jsx
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## ▶️ Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+### 1. Clone the repository
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+git clone <your-repo-link>
+cd <project-folder>
+```
 
-## Join the community
+### 2. Install dependencies
 
-Join our community of developers creating universal apps.
+```
+npm install
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# MetalPriceApp
-# MetalPriceApp
+### 3. Run the app
+
+```
+npx expo start
+```
+
+---
+
+## 📸 Screenshots
+
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/47c656c6-d023-4c27-9ef4-024a788855ac" />
+<img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/53657e20-c1f7-401d-9cdf-d31992c7eb79" />
+
+
+---
+
+## 🎯 Assignment Objective
+
+This project demonstrates:
+
+* API integration
+* State management
+* Navigation handling
+* UI/UX design principles
+* Error and loading state management
+
+---
+
+## ✨ Future Improvements
+
+* Pull-to-refresh functionality
+* Dark mode support
+* Price trend indicators
+* Better animations
+
+---
+
+## 📌 Author
+
+Developed by **Addanki Adinarayana AnandSwaroop**
