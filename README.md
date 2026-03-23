@@ -64,7 +64,6 @@ npx expo start
 ---
 
 ## 📸 Screenshots
-
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/47c656c6-d023-4c27-9ef4-024a788855ac" />
 <img width="720" height="1600" alt="image" src="https://github.com/user-attachments/assets/53657e20-c1f7-401d-9cdf-d31992c7eb79" />
 
@@ -94,5 +93,4 @@ This project demonstrates:
 
 ## 📌 Author
 
-Developed by **Addanki Adinarayana AnandSwaroop**
-# MetalPriceApp
+Developed by **Addanki Adinarayana Anand Swaroop**
