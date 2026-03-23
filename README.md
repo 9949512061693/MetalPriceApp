@@ -95,3 +95,4 @@ This project demonstrates:
 ## 📌 Author
 
 Developed by **Addanki Adinarayana AnandSwaroop**
+# MetalPriceApp
